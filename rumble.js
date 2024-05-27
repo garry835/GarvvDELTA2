@@ -51,7 +51,8 @@ class Canon {
     render() {
         this.Baseboard.innerHTML = ''; // Clear the baseboard
         const img = document.createElement('img'); // Create an image element
-        img.src = 'C:\Users\tatia\OneDrive\Pictures\Screenshots\Screenshot (83).png'; // Set cannon image URL
+        img.src = 'Canon.jpg';
+        
         img.alt = 'Cannon'; // Set alt attribute for accessibility
         this.Baseboard.appendChild(img); // Append the cannon image to the baseboard
     }
